@@ -40,7 +40,7 @@ function App() {
 
             <Route path='/' element={
               <Container>
-                <img src={process.env.PUBLIC_URL + './images/visual_main_01.jpg'} alt = 'img'/>
+                <img src={process.env.PUBLIC_URL + '/images/visual_main_01.jpg'} alt = 'img'/>
                 <h2>베스트상품</h2>
               <Row>
                 {
